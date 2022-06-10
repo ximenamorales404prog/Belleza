@@ -1,0 +1,38 @@
+*{box-sizing: border-box;
+padding:0px
+margin:0px
+}
+ body {
+ 	background-color:#6A5495;
+
+ }
+ header{
+ 	width: 100%;
+ 	background: #998CEB;
+ 	height: 70 px;
+ } 
+ main {
+ 	color: #000000;
+ 	font-size: 40px;
+ 	font-family: Reli;
+ }
+ .box1{
+ 	width: 300px;
+ 	height: 350px;
+ 	background: #D9D7F1;
+ }
+ .columna {
+ 	float: left;
+ 	width: 25%;
+ 	padding-right: 10px;
+ }
+ .fila::after{
+ 	content: "";
+ 	clear: both;
+ 	display: table;
+ }
+ @font-face{
+ 	font-family: Reli;
+ 	src: url(fuente/Loftygoals-Regular.ttf);
+
+ }*

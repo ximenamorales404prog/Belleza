@@ -1,0 +1,12 @@
+*{margin:0px;
+padding:0px;
+}
+ html {height: 100%;
+ }
+@font-face {
+	font-family: ananda2;
+	src: url("C:\xampo\htdocs\WebEstetica\letra1.tff.txt");
+}
+h2 {
+	font-family:ananda2 ;
+}*

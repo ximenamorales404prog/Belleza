@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	background-color:#EA5C2B;
+	color: black;
+	padding: 30px;
+}
+ img {
+ 	width: 350px;
+ 	height: 350px;
+ }
+ h2{
+ 	text-align: center;
+	background-color: #FF7F3F;
+	color: black;
+	padding: 40px;
+ }
+ h3{
+ 	text-align: center;
+	background-color: #9FC088;
+	color: black;
+	padding: 50px;
+ }
+
+ *{
+   font-family: 'Nunito', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: all .2s linear;
+   text-transform: capitalize;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+body{
+   background:#E8C07D;
+}
+
+.container{
+   max-width: 1200px;
+   margin:0 auto;
+   padding:3rem 2rem;
+}
+
+.container .title{
+   font-size: 3.5rem;
+   color: black;
+   margin-bottom: 3rem;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.container .products-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap:2rem;
+}
+
+.container .products-container .product{
+   text-align: center;
+   padding:3rem 2rem;
+   background: #FFBF86;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   outline: .1rem solid #ccc;
+   outline-offset: -1.5rem;
+   cursor: pointer;
+}
+
+.container .products-container .product:hover{
+   outline: .2rem solid #222;
+   outline-offset: 0;
+}
+
+.container .products-container .product img{
+   height: 25rem;
+}
+
+.container .products-container .product:hover img{
+   transform: scale(.9);
+}
+
+.container .products-container .product h3{
+   padding:.5rem 0;
+   font-size: 2rem;
+   color:black;
+}
+
+.container .products-container .product:hover h3{
+   color:#B1D0E0;
+}
+
+.container .products-container .product .price{
+   font-size: 2rem;
+   color:#B1D0E0;
+}
+
+.products-preview{
+   position: fixed;
+   top:0; left:0;
+   min-height: 100vh;
+   width: 100%;
+   background: rgba(0,0,0,.8);
+   display: none;
+   align-items: center;
+   justify-content: center;
+}
+
+.products-preview .preview{
+   display: none;
+   padding:2rem;
+   text-align: center;
+   background: #B1D0E0;
+   position: relative;
+   margin:2rem;
+   width: 40rem;
+}
+
